@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../styles/button.css';
 
 const Button = ({ to, label }) => {
   const navigate = useNavigate(); // Replaces useHistory
