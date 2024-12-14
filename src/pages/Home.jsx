@@ -19,6 +19,13 @@ const Home = () => {
             {/* Header */}
             <Header />
 
+            {/* Hero Section */}
+            <section className="relative">
+                <div >
+                    <img src="https://via.placeholder.com/1920x600" alt="" />
+                </div>
+            </section>
+
             {/* Search Section */}
             <section className="bg-white shadow-lg p-6 rounded-md w-11/12 max-w-5xl mx-auto -mt-20 relative z-20">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
