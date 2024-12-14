@@ -8,8 +8,8 @@ const LoginPage = () => {
       <div className="grid grid-cols-2 w-3/4 overflow-hidden">
         {/* Sección de formulario */}
         <div className="flex flex-col justify-center p-10">
-          <h1 className="text-3xl font-bold text-blue-600 mb-20">FlyNow</h1>
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Login</h1>
+          <h1 className="text-3xl font-bold mb-20">FlyNow</h1>
+          <h1 className="text-4xl font-bold mb-2">Login</h1>
           <p className="text-gray-600 mb-6 mt-2">
             Inicie sesión para acceder a su cuenta de FlyNow
           </p>
@@ -18,14 +18,14 @@ const LoginPage = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-gray-600 font-medium mb-1"
+                className="block font-medium mb-1"
               >
                 Correo Electrónico
               </label>
               <input
                 type="email"
                 id="email"
-                className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="correo@ejemplo.com"
               />
             </div>
@@ -34,14 +34,14 @@ const LoginPage = () => {
             <div>
               <label
                 htmlFor="password"
-                className="block text-gray-600 font-medium mb-1"
+                className="block font-medium mb-1"
               >
                 Contraseña
               </label>
               <input
                 type="password"
                 id="password"
-                className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="********"
               />
             </div>
@@ -56,7 +56,7 @@ const LoginPage = () => {
               </div>
               <Link
                 to="/forgot-password"
-                className="text-blue-500 hover:underline"
+                className="text-red-500 hover:underline"
               >
                 ¿Olvidaste tu contraseña?
               </Link>
@@ -65,7 +65,7 @@ const LoginPage = () => {
             {/* Botón de acceso */}
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+              className="w-full bg-[#8DD3BB] font-medium py-2 px-4 shadow-md"
             >
               Acceso
             </button>
@@ -74,7 +74,7 @@ const LoginPage = () => {
           {/* Enlace de registro */}
           <div className="mt-4 text-center">
             <span className="text-gray-600">¿No tienes cuenta? </span>
-            <Link to="/register" className="text-blue-500 hover:underline">
+            <Link to="/register" className="font-medium text-[#112211] hover:underline">
               Regístrate aquí
             </Link>
           </div>

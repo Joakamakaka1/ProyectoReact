@@ -7,7 +7,7 @@ const ProductCard = ({ title, price, image }) => {
             <div className="p-4">
                 <h3 className="font-bold text-xl">{title}</h3>
                 <p className="text-gray-600">{price}</p>
-                <button className="mt-2 bg-blue-600 text-white w-full py-2 rounded-md">
+                <button className="mt-2 bg-[#8DD3BE] font-medium w-full py-2 rounded-md ">
                     Reservar Vuelo
                 </button>
             </div>

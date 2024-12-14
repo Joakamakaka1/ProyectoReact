@@ -17,8 +17,8 @@ const RegisterPage = () => {
 
         {/* Sección de formulario */}
         <div className="flex flex-col justify-center p-10">
-          <h1 className="text-3xl font-bold text-blue-600 mb-20">FlyNow</h1>
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Registro</h1>
+          <h1 className="text-3xl font-bold mb-20">FlyNow</h1> 
+          <h1 className="text-4xl font-bold mb-2">Registro</h1>
           <p className="text-gray-600 mb-6 mt-2">
             Vamos a prepararte para que puedas acceder a tu cuenta personal.{" "}
           </p>
@@ -28,14 +28,14 @@ const RegisterPage = () => {
               <div>
                 <label
                   htmlFor="firstName"
-                  className="block text-gray-600 font-medium mb-1"
+                  className="block font-medium mb-1"
                 >
                   Nombre
                 </label>
                 <input
                   type="text"
                   id="firstName"
-                  className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Tu nombre"
                 />
               </div>
@@ -44,14 +44,14 @@ const RegisterPage = () => {
               <div>
                 <label
                   htmlFor="lastName"
-                  className="block text-gray-600 font-medium mb-1"
+                  className="block font-medium mb-1"
                 >
                   Apellido
                 </label>
                 <input
                   type="text"
                   id="lastName"
-                  className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Tu apellido"
                 />
               </div>
@@ -60,14 +60,14 @@ const RegisterPage = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-gray-600 font-medium mb-1"
+                  className="block font-medium mb-1"
                 >
                   Correo Electrónico
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="correo@ejemplo.com"
                 />
               </div>
@@ -76,14 +76,14 @@ const RegisterPage = () => {
               <div>
                 <label
                   htmlFor="phone"
-                  className="block text-gray-600 font-medium mb-1"
+                  className="block font-medium mb-1"
                 >
                   Número de Teléfono
                 </label>
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="123456789"
                 />
               </div>
@@ -93,14 +93,14 @@ const RegisterPage = () => {
             <div>
               <label
                 htmlFor="password"
-                className="block text-gray-600 font-medium mb-1"
+                className="block font-medium mb-1"
               >
                 Contraseña
               </label>
               <input
                 type="password"
                 id="password"
-                className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="********"
               />
             </div>
@@ -109,14 +109,14 @@ const RegisterPage = () => {
             <div>
               <label
                 htmlFor="confirmPassword"
-                className="block text-gray-600 font-medium mb-1"
+                className="block font-medium mb-1"
               >
                 Confirmar Contraseña
               </label>
               <input
                 type="password"
                 id="confirmPassword"
-                className="w-full border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="********"
               />
             </div>
@@ -133,7 +133,7 @@ const RegisterPage = () => {
             {/* Botón de registro */}
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+              className="w-full bg-[#8DD3BB] font-medium py-2 px-4 shadow-md"
             >
               Registrarse
             </button>
@@ -142,7 +142,7 @@ const RegisterPage = () => {
           {/* Enlace adicional */}
           <div className="mt-4 text-center">
             <span className="text-gray-600">¿Ya tienes cuenta? </span>
-            <Link to="/login" className="text-blue-500 hover:underline">
+            <Link to="/login" className=" hover:underline font-medium text-[#112211]">
               Inicia sesión aquí
             </Link>
           </div>

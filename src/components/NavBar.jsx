@@ -1,5 +1,4 @@
 import React from "react";
-import AvionHeader from "../assets/img/avionHeader.webp";
 import { Link } from "react-router-dom";
 
 
@@ -20,7 +19,7 @@ const Header = () => {
         {/* Botones de Login y Registro */}
         <div className="flex items-center space-x-4">
             <button className="text-gray-800 font-medium"><Link to="/login">Login</Link></button>
-            <button className="bg-green-600 text-white py-2 px-4 rounded-md">
+            <button className="bg-[#112211] text-white py-2 px-4 rounded-md">
                 <Link to="/register">Registrarse</Link>
             </button>
         </div>
