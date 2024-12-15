@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../components/Button";
 import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
@@ -17,7 +16,9 @@ const RegisterPage = () => {
 
         {/* Sección de formulario */}
         <div className="flex flex-col justify-center p-10">
-          <h1 className="text-3xl font-bold mb-20">FlyNow</h1> 
+          <Link to="/">
+            <h1 className="text-3xl font-bold mb-20">FlyNow</h1>{" "}
+          </Link>
           <h1 className="text-4xl font-bold mb-2">Registro</h1>
           <p className="text-gray-600 mb-6 mt-2">
             Vamos a prepararte para que puedas acceder a tu cuenta personal.{" "}
@@ -26,10 +27,7 @@ const RegisterPage = () => {
             <div className="grid grid-cols-2 gap-4">
               {/* Campo de nombre */}
               <div>
-                <label
-                  htmlFor="firstName"
-                  className="block font-medium mb-1"
-                >
+                <label htmlFor="firstName" className="block font-medium mb-1">
                   Nombre
                 </label>
                 <input
@@ -42,10 +40,7 @@ const RegisterPage = () => {
 
               {/* Campo de apellido */}
               <div>
-                <label
-                  htmlFor="lastName"
-                  className="block font-medium mb-1"
-                >
+                <label htmlFor="lastName" className="block font-medium mb-1">
                   Apellido
                 </label>
                 <input
@@ -58,10 +53,7 @@ const RegisterPage = () => {
 
               {/* Campo de correo electrónico */}
               <div>
-                <label
-                  htmlFor="email"
-                  className="block font-medium mb-1"
-                >
+                <label htmlFor="email" className="block font-medium mb-1">
                   Correo Electrónico
                 </label>
                 <input
@@ -74,10 +66,7 @@ const RegisterPage = () => {
 
               {/* Campo de número de teléfono */}
               <div>
-                <label
-                  htmlFor="phone"
-                  className="block font-medium mb-1"
-                >
+                <label htmlFor="phone" className="block font-medium mb-1">
                   Número de Teléfono
                 </label>
                 <input
@@ -91,10 +80,7 @@ const RegisterPage = () => {
 
             {/* Campo de contraseña */}
             <div>
-              <label
-                htmlFor="password"
-                className="block font-medium mb-1"
-              >
+              <label htmlFor="password" className="block font-medium mb-1">
                 Contraseña
               </label>
               <input
@@ -142,7 +128,10 @@ const RegisterPage = () => {
           {/* Enlace adicional */}
           <div className="mt-4 text-center">
             <span className="text-gray-600">¿Ya tienes cuenta? </span>
-            <Link to="/login" className=" hover:underline font-medium text-[#112211]">
+            <Link
+              to="/login"
+              className=" hover:underline font-medium text-[#112211]"
+            >
               Inicia sesión aquí
             </Link>
           </div>

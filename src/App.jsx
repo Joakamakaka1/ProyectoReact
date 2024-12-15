@@ -8,6 +8,7 @@ import RegisterPage from './pages/RegisterPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
+import ProductFinalDetailPage from './pages/ProductFinalDetailPage';
 
 import './styles/global.css';
 
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/product" element={<ProductDetailPage />} />
+          <Route path='/finalProduct' element ={<ProductFinalDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

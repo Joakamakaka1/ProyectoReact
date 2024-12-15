@@ -7,7 +7,9 @@ const ContactPage = () => {
       <div className="grid grid-cols-2 w-3/4 overflow-hidden">
         {/* Sección de formulario */}
         <div className="flex flex-col justify-center p-10">
-          <h1 className="text-3xl font-bold mb-20">FlyNow</h1>
+          <Link to="/">
+            <h1 className="text-3xl font-bold mb-20">FlyNow</h1>
+          </Link>
           <h1 className="text-4xl font-bold mb-2">Contacto</h1>
           <p className="text-gray-600 mb-6 mt-2">
             Ponte en contacto con nosotros

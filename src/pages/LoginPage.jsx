@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../components/Button";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
@@ -8,7 +7,9 @@ const LoginPage = () => {
       <div className="grid grid-cols-2 w-3/4 overflow-hidden">
         {/* Sección de formulario */}
         <div className="flex flex-col justify-center p-10">
-          <h1 className="text-3xl font-bold mb-20">FlyNow</h1>
+          <Link to="/">
+            <h1 className="text-3xl font-bold mb-20">FlyNow</h1>
+          </Link>
           <h1 className="text-4xl font-bold mb-2">Login</h1>
           <p className="text-gray-600 mb-6 mt-2">
             Inicie sesión para acceder a su cuenta de FlyNow
@@ -16,10 +17,7 @@ const LoginPage = () => {
           <form className="space-y-4">
             {/* Campo de correo electrónico */}
             <div>
-              <label
-                htmlFor="email"
-                className="block font-medium mb-1"
-              >
+              <label htmlFor="email" className="block font-medium mb-1">
                 Correo Electrónico
               </label>
               <input
@@ -32,10 +30,7 @@ const LoginPage = () => {
 
             {/* Campo de contraseña */}
             <div>
-              <label
-                htmlFor="password"
-                className="block font-medium mb-1"
-              >
+              <label htmlFor="password" className="block font-medium mb-1">
                 Contraseña
               </label>
               <input
@@ -74,7 +69,10 @@ const LoginPage = () => {
           {/* Enlace de registro */}
           <div className="mt-4 text-center">
             <span className="text-gray-600">¿No tienes cuenta? </span>
-            <Link to="/register" className="font-medium text-[#112211] hover:underline">
+            <Link
+              to="/register"
+              className="font-medium text-[#112211] hover:underline"
+            >
               Regístrate aquí
             </Link>
           </div>
