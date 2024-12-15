@@ -9,6 +9,7 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ProductFinalDetailPage from './pages/ProductFinalDetailPage';
+import ApiDocumentation from './pages/ApiDocumentation';
 
 import './styles/global.css';
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/product" element={<ProductDetailPage />} />
           <Route path='/finalProduct' element ={<ProductFinalDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path='/api' element= {<ApiDocumentation />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
 

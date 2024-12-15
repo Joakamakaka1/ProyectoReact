@@ -58,7 +58,7 @@ const ContactPage = () => {
             <Link to="/">
               <button
                 type="submit"
-                className="w-full py-2 mt-4 px-4 shadow-md bg-[#8DD3BE] font-medium"
+                className="w-full py-2 mt-4 px-4 shadow-md bg-[#8DD3BE] font-medium rounded-lg"
               >
                 Enviar
               </button>

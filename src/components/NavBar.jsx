@@ -8,7 +8,7 @@ const Header = () => {
       <div className="flex items-center space-x-4 ">
         <span className="flex items-center space-x-2 text-lg font-bold text-gray-800">
           <Link to="/product">
-            <span> &#9992; Buscar vuelo</span>
+          <span className="border-b-2 border-transparent hover:border-[#8DD3BB] pb-5 transition-all duration-300 ease-in-out"> &#9992; Buscar vuelo</span>
           </Link>
         </span>
       </div>

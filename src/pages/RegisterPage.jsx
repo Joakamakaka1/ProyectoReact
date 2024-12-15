@@ -119,7 +119,7 @@ const RegisterPage = () => {
             {/* Botón de registro */}
             <button
               type="submit"
-              className="w-full bg-[#8DD3BB] font-medium py-2 px-4 shadow-md"
+              className="w-full bg-[#8DD3BB] font-medium py-2 px-4 shadow-md rounded-lg"
             >
               Registrarse
             </button>

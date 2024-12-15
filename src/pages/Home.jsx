@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const cardsData = [
-    { title: "París", price: "$700", image: ParisImage },
-    { title: "Bangkok", price: "$600", image: BangkokImage },
-    { title: "Nueva York", price: "$800", image: NewYorkImage },
-    { title: "Cádiz", price: "$500", image: CadizImage },
+    { title: "París", price: "$700", subTitle: "Una aventura en París", image: ParisImage },
+    { title: "Bangkok", price: "$600", subTitle: "Una aventura en París", image: BangkokImage },
+    { title: "Nueva York", price: "$800", subTitle: "Una aventura en París", image: NewYorkImage },
+    { title: "Cádiz", price: "$500", subTitle: "Una aventura en París", image: CadizImage },
   ];
 
   return (
@@ -29,6 +29,7 @@ const Home = () => {
 
       {/* Search Section */}
       <section className="bg-white shadow-lg p-6 rounded-md w-11/12 max-w-5xl mx-auto -mt-20 relative z-20">
+        <h1 className="text-2xl font-bold mb-4">¿A donde vuelas?</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <input
             type="text"
@@ -74,6 +75,7 @@ const Home = () => {
               key={index}
               title={card.title}
               price={card.price}
+              subTitle={card.subTitle}
               image={card.image}
             />
           ))}
@@ -82,10 +84,10 @@ const Home = () => {
 
       <section className="py-12 bg-gray-100">
         <div className="mb-8 px-40">
-          <h2 className="text-3xl font-bold text-gray-800 pb-4">
+          <h2 className="text-3xl font-bold text-[#112211] pb-4">
             Sumérgete en los viajes
           </h2>
-          <p className="text-gray-600 w-2/4">
+          <p className="text-[#112211]  w-2/4">
             ¿Vas a algún lugar para celebrar esta temporada? . Ya sea que
             regrese a casa o a algún lugar para recorrer, tenemos las
             herramientas de viaje para llevarlo a su destino.
@@ -97,22 +99,22 @@ const Home = () => {
           <div className="flex flex-col justify-between bg-white shadow-md p-6 rounded-md">
             {/* Título y precio */}
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-gray-800">Las Maldivas</h2>
-              <p className="text-lg font-medium text-gray-600">Precio: $700</p>
+              <h2 className="text-2xl font-bold text-[#112211] ">Las Maldivas</h2>
+              <p className="text-lg font-medium text-[#112211] ">Precio: $700</p>
             </div>
             {/* Descripción */}
             <p className="text-gray-600 mb-40">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               euismod, urna eu tincidunt consectetur, nisi nunc volutpat arcu,
               quis tristique ligula lacus at justo. Nullam suscipit magna ut dui
-              placerat, a aliquam lorem cursus.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              euismod, urna eu tincidunt consectetur, nisi nunc volutpat arcu,
-              quis tristique ligula lacus at justo. Nullam suscipit magna ut dui
-              placerat, a aliquam lorem cursus.
+              placerat, a aliquam lorem cursus. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Vivamus euismod, urna eu tincidunt
+              consectetur, nisi nunc volutpat arcu, quis tristique ligula lacus
+              at justo. Nullam suscipit magna ut dui placerat, a aliquam lorem
+              cursus.
             </p>
             {/* Botón */}
-            <button className="bg-[#8DD3BB] text-black font-bold py-3 rounded-md w-full">
+            <button className="bg-[#8DD3BB] text-black font-semibold py-3 rounded-md w-full">
               Reservar Vuelo
             </button>
           </div>
@@ -122,22 +124,22 @@ const Home = () => {
             <img
               src="https://via.placeholder.com/300"
               alt="Maldivas 1"
-              className="w-full h-56 object-cover rounded-md"
+              className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
               src="https://via.placeholder.com/300"
               alt="Maldivas 2"
-              className="w-full h-56 object-cover rounded-md"
+              className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
               src="https://via.placeholder.com/300"
               alt="Maldivas 3"
-              className="w-full h-56 object-cover rounded-md"
+              className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
               src="https://via.placeholder.com/300"
               alt="Maldivas 4"
-              className="w-full h-56 object-cover rounded-md"
+              className="w-full h-56 object-cover rounded-md border border-green-200"
             />
           </div>
         </div>

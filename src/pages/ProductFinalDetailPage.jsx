@@ -10,8 +10,8 @@ const ProductFinalDetailPage = () => {
 
       <div className="pt-7 flex justify-between items-center mx-20 mb-10">
         <div>
-          <h1 className="text-2xl font-semibold">Ryanair A380 Airbus</h1>
-          <p className="text-gray-600 text-sm mt-2">Sevilla</p>
+          <h1 className="text-2xl text-[#112211] font-semibold">Ryanair A380 Airbus</h1>
+          <p className="text-[#112211]  text-sm mt-2">Sevilla</p>
           <div className="flex items-center mt-2">
             <span className="border border-green-200 rounded-md py-1 px-3">
               4.2
@@ -21,7 +21,7 @@ const ProductFinalDetailPage = () => {
           </div>
         </div>
         <div className="text-right">
-          <p className="text-2xl text-red-500 font-bold">$240</p>
+          <p className="text-2xl text-[#FF8682] font-bold">$240</p>
           <button className="bg-[#8DD3BB] font-medium px-4 py-2 rounded-md mt-1">
             Reserva ahora
           </button>
@@ -39,16 +39,16 @@ const ProductFinalDetailPage = () => {
       </div>
 
       <div className="bg-[#8DD3BB] p-6 rounded-lg mx-20 my-10">
-        <h2 className="font-bold text-2xl text-gray-800 mb-6">
+        <h2 className="font-bold text-2xl text-[#112211] mb-6">
           Ryanair Airlines Policies
         </h2>
-        <ul className="flex justify-start space-x-8 text-gray-700 text-1xl">
+        <ul className="flex justify-start space-x-8 text-[#112211] text-1xl">
           <li className="flex items-center pr-10">
-            <span className="mr-2 text-gray-900 font-semibold">⏳</span>
+            <span className="mr-2 text-[#112211] font-semibold">⏳</span>
             Limpieza previa al vuelo, instalación de filtros HEPA en cabina.
           </li>
           <li className="flex items-center">
-            <span className="mr-2 text-gray-900 font-semibold">⏳</span>
+            <span className="mr-2 text-[#112211] font-semibold">⏳</span>
             Preguntas sobre exámenes de salud previos al vuelo.
           </li>
         </ul>
@@ -59,8 +59,8 @@ const ProductFinalDetailPage = () => {
         {/* Flight 1 */}
         <div className="bg-white p-6 py-5 rounded-lg shadow-md mb-4 h-56">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-gray-700">Ida Wed, Dec 8</h3>
-            <div className="text-gray-500 text-sm">2h 28m</div>
+            <h3 className="font-semibold text-[#112211]">Ida Wed, Dec 8</h3>
+            <div className="text-[#112211] text-sm">2h 28m</div>
           </div>
 
           <div className="flex items-center mb-4">
@@ -72,27 +72,27 @@ const ProductFinalDetailPage = () => {
               />
               <div>
                 <p className="font-bold text-lg">Ryanair</p>
-                <p className="text-sm text-gray-500">Airbus A320</p>
+                <p className="text-sm text-[#112211]">Airbus A320</p>
               </div>
             </div>
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="font-bold text-gray-800 text-lg mr-2">12:00 pm</p>
-            <p className="text-sm text-gray-600 mr-4">Nueva York (EWR)</p>
+            <p className="font-bold text-[#112211] text-lg mr-2">12:00 pm</p>
+            <p className="text-sm text-[#112211] mr-4">Nueva York (EWR)</p>
             <div className="text-gray-400 text-xl">&rarr;</div>
-            <p className="font-bold text-gray-800 text-lg ml-4 mr-2">
+            <p className="font-bold text-[#112211] text-lg ml-4 mr-2">
               12:00 pm
             </p>
-            <p className="text-sm text-gray-600">Nueva York (EWR)</p>
+            <p className="text-sm text-[#112211]">Nueva York (EWR)</p>
           </div>
         </div>
 
         {/* Flight 2 */}
         <div className="bg-white p-6 py-5 rounded-lg shadow-md h-56">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-gray-700">Vuelta Wed, Dec 12</h3>
-            <div className="text-gray-500 text-sm">2h 28m</div>
+            <h3 className="font-semibold text-[#112211]">Vuelta Wed, Dec 12</h3>
+            <div className="text-[#112211] text-sm">2h 28m</div>
           </div>
 
           <div className="flex items-center mb-4">
@@ -110,13 +110,13 @@ const ProductFinalDetailPage = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="font-bold text-gray-800 text-lg mr-2">12:00 pm</p>
-            <p className="text-sm text-gray-600 mr-4">Nueva York (EWR)</p>
+            <p className="font-bold text-[#112211] text-lg mr-2">12:00 pm</p>
+            <p className="text-sm text-[#112211] mr-4">Nueva York (EWR)</p>
             <div className="text-gray-400 text-xl">&rarr;</div>
-            <p className="font-bold text-gray-800 text-lg ml-4 mr-2">
+            <p className="font-bold text-[#112211] text-lg ml-4 mr-2">
               12:00 pm
             </p>
-            <p className="text-sm text-gray-600">Nueva York (EWR)</p>
+            <p className="text-sm text-[#112211]">Nueva York (EWR)</p>
           </div>
         </div>
       </div>
