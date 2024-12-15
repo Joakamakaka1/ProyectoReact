@@ -6,6 +6,7 @@ import BangkokImage from "../assets/img/bangkok.jpeg";
 import NewYorkImage from "../assets/img/newYork.jpeg";
 import CadizImage from "../assets/img/cadiz.jpeg";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const cardsData = [
@@ -45,9 +46,11 @@ const Home = () => {
             placeholder="Pasajero - clase"
             className="border p-3 rounded-md"
           />
-          <button className="bg-[#8DD3BB] font-medium py-3 rounded-md col-span-4">
-            Reservar Vuelo
-          </button>
+          <Link className="bg-[#8DD3BB] font-medium py-3 rounded-md col-span-4 text-center" to="/product">
+            <button>
+              Reservar Vuelo
+            </button>
+          </Link>
         </div>
       </section>
 
@@ -77,7 +80,6 @@ const Home = () => {
       </section>
       <Footer />
     </div>
-
   );
 };
 
