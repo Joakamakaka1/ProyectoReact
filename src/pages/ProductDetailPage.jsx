@@ -5,7 +5,7 @@ import Header from "../components/NavBar";
 
 const ProductDetailPage = () => {
   return (
-    <div className="max-w mx-auto">
+    <div className="max-w mx-auto bg-gray-100">
       <Header />
 
       <section className="bg-white shadow-lg p-6 rounded-md mb-8 mt-8 max-w-6xl mx-auto">

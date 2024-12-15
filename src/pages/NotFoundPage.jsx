@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
   return (
-    <div className="min-h-screen flex flex-col overflow-hidden">
+    <div className="min-h-screen flex flex-col overflow-hidden bg-gray-100">
       <Header />
 
-      <div className="flex-1 flex items-center justify-center">
-        <div className="text-center bg-white p-8 max-w-4lg w-full">
+      <div className="flex-1 flex items-center justify-center ">
+        <div className="text-center bg-gray-100 p-8 max-w-4lg w-full">
           <h1 className="text-9xl font-bold mb-10">404</h1>
           <p className="text-4xl mt-4 mb-4">Esta página no se pudo encontrar</p>
           <p className="text-md mt-2 ">
