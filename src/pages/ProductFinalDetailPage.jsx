@@ -9,7 +9,9 @@ const ProductFinalDetailPage = () => {
 
       <div className="pt-7 flex justify-between items-center mx-20 mb-10">
         <div>
-          <h1 className="text-2xl text-[#112211] font-semibold">Ryanair A380 Airbus</h1>
+          <h1 className="text-2xl text-[#112211] font-semibold">
+            Ryanair A380 Airbus
+          </h1>
           <p className="text-[#112211]  text-sm mt-2">Sevilla</p>
           <div className="flex items-center mt-2">
             <span className="border border-green-200 rounded-md py-1 px-3">
@@ -30,7 +32,7 @@ const ProductFinalDetailPage = () => {
       <div className="mx-20">
         <div className="w-full h-96 overflow-hidden rounded-lg mt-4">
           <img
-            src="public/avion.jpg"
+            src="/avion.jpg"
             alt="airplane"
             className="w-full h-full object-cover"
           />
@@ -58,7 +60,9 @@ const ProductFinalDetailPage = () => {
         {/* Flight 1 */}
         <div className="bg-white p-6 py-4 rounded-lg shadow-md mb-4 h-56">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-[#112211] text-2xl">Ida Wed, Dec 8</h3>
+            <h3 className="font-semibold text-[#112211] text-2xl">
+              Ida Wed, Dec 8
+            </h3>
             <div className="text-[#112211] text-1xl">2h 28m</div>
           </div>
 
@@ -78,7 +82,9 @@ const ProductFinalDetailPage = () => {
 
           <div className="flex items-center justify-center ">
             <p className="font-bold text-[#112211] text-2xl mr-2">12:00 pm</p>
-            <p className="text-1xl text-[#112211] mt-1 mr-4">Nueva York (EWR)</p>
+            <p className="text-1xl text-[#112211] mt-1 mr-4">
+              Nueva York (EWR)
+            </p>
             <div className="text-gray-400 text-xl">&rarr;</div>
             <p className="font-bold text-[#112211] text-2xl ml-4 mr-2">
               12:00 pm
@@ -90,7 +96,9 @@ const ProductFinalDetailPage = () => {
         {/* Flight 2 */}
         <div className="bg-white p-6 py-4 rounded-lg shadow-md h-56">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-[#112211] text-2xl">Vuelta Wed, Dec 12</h3>
+            <h3 className="font-semibold text-[#112211] text-2xl">
+              Vuelta Wed, Dec 12
+            </h3>
             <div className="text-[#112211] text-1xl">2h 28m</div>
           </div>
 
@@ -110,7 +118,9 @@ const ProductFinalDetailPage = () => {
 
           <div className="flex items-center justify-center">
             <p className="font-bold text-[#112211] text-2xl mr-2">12:00 pm</p>
-            <p className="text-1xl text-[#112211] mt-1 mr-4">Nueva York (EWR)</p>
+            <p className="text-1xl text-[#112211] mt-1 mr-4">
+              Nueva York (EWR)
+            </p>
             <div className="text-gray-400 text-xl">&rarr;</div>
             <p className="font-bold text-[#112211] text-2xl ml-4 mr-2">
               12:00 pm

@@ -77,7 +77,7 @@ const LoginPage = () => {
 
         <div className="hidden md:flex items-center justify-center bg-gray-100 py-5 ">
           <img
-            src="public/palmeras.jpeg"
+            src="/palmeras.jpeg"
             alt="Login"
             className="w-auto h-[600px] max-w-sm rounded-lg"
           />

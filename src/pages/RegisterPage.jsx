@@ -7,7 +7,7 @@ const RegisterPage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-3/4 overflow-hidden">
         <div className="hidden md:flex items-center justify-center bg-gray-100 py-5">
           <img
-            src="public/palmeras.jpeg"
+            src="/palmeras.jpeg"
             alt="Register"
             className="w-auto h-[600px] max-w-sm rounded-lg"
           />

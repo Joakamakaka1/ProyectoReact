@@ -10,7 +10,7 @@ const UserProfilePage = () => {
       <div className="bg-[#5C5C5C] text-white p-16 text-center relative mx-20 mt-10 rounded-t-lg">
         <div className="w-36 h-36 mx-auto rounded-full bg-gray-300 border-4 border-white overflow-hidden relative">
           <img
-            src="public/fotoPersona.png"
+            src="/fotoPersona.png"
             alt="Avatar"
             className="rounded-full transform scale-125"
           />

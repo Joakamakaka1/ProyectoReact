@@ -135,22 +135,22 @@ const Home = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="public/tropical1.jpg"
+              src="/Tropical1.jpg"
               alt="Maldivas 1"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="public/tropical2.jpg"
+              src="/Tropical2.jpg"
               alt="Maldivas 2"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="public/tropical3.jpg"
+              src="/Tropical3.jpg"
               alt="Maldivas 3"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="public/tropical4.jpg"
+              src="/Tropical4.jpg"
               alt="Maldivas 4"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
