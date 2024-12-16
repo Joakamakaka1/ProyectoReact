@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../components/NavBar";
 import Footer from "../components/Footer";
 
@@ -57,10 +56,10 @@ const ProductFinalDetailPage = () => {
       {/* Flights Details */}
       <div className="mx-20 pb-10">
         {/* Flight 1 */}
-        <div className="bg-white p-6 py-5 rounded-lg shadow-md mb-4 h-56">
+        <div className="bg-white p-6 py-4 rounded-lg shadow-md mb-4 h-56">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-[#112211]">Ida Wed, Dec 8</h3>
-            <div className="text-[#112211] text-sm">2h 28m</div>
+            <h3 className="font-semibold text-[#112211] text-2xl">Ida Wed, Dec 8</h3>
+            <div className="text-[#112211] text-1xl">2h 28m</div>
           </div>
 
           <div className="flex items-center mb-4">
@@ -77,22 +76,22 @@ const ProductFinalDetailPage = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
-            <p className="font-bold text-[#112211] text-lg mr-2">12:00 pm</p>
-            <p className="text-sm text-[#112211] mr-4">Nueva York (EWR)</p>
+          <div className="flex items-center justify-center ">
+            <p className="font-bold text-[#112211] text-2xl mr-2">12:00 pm</p>
+            <p className="text-1xl text-[#112211] mt-1 mr-4">Nueva York (EWR)</p>
             <div className="text-gray-400 text-xl">&rarr;</div>
-            <p className="font-bold text-[#112211] text-lg ml-4 mr-2">
+            <p className="font-bold text-[#112211] text-2xl ml-4 mr-2">
               12:00 pm
             </p>
-            <p className="text-sm text-[#112211]">Nueva York (EWR)</p>
+            <p className="text-1xl text-[#112211] mt-1">Nueva York (EWR)</p>
           </div>
         </div>
 
         {/* Flight 2 */}
-        <div className="bg-white p-6 py-5 rounded-lg shadow-md h-56">
+        <div className="bg-white p-6 py-4 rounded-lg shadow-md h-56">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-[#112211]">Vuelta Wed, Dec 12</h3>
-            <div className="text-[#112211] text-sm">2h 28m</div>
+            <h3 className="font-semibold text-[#112211] text-2xl">Vuelta Wed, Dec 12</h3>
+            <div className="text-[#112211] text-1xl">2h 28m</div>
           </div>
 
           <div className="flex items-center mb-4">
@@ -110,13 +109,13 @@ const ProductFinalDetailPage = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <p className="font-bold text-[#112211] text-lg mr-2">12:00 pm</p>
-            <p className="text-sm text-[#112211] mr-4">Nueva York (EWR)</p>
+            <p className="font-bold text-[#112211] text-2xl mr-2">12:00 pm</p>
+            <p className="text-1xl text-[#112211] mt-1 mr-4">Nueva York (EWR)</p>
             <div className="text-gray-400 text-xl">&rarr;</div>
-            <p className="font-bold text-[#112211] text-lg ml-4 mr-2">
+            <p className="font-bold text-[#112211] text-2xl ml-4 mr-2">
               12:00 pm
             </p>
-            <p className="text-sm text-[#112211]">Nueva York (EWR)</p>
+            <p className="text-1xl mt-1 text-[#112211]">Nueva York (EWR)</p>
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ProductFinalDetailPage from './pages/ProductFinalDetailPage';
 import ApiDocumentation from './pages/ApiDocumentation';
+import UserProfilePage from './pages/UserProfilePage';
 
 import './styles/global.css';
 
@@ -27,6 +28,7 @@ const App = () => {
           <Route path='/finalProduct' element ={<ProductFinalDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path='/api' element= {<ApiDocumentation />} />
+          <Route path='/profile' element= {<UserProfilePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
 

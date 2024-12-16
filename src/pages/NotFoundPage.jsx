@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/NavBar";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const NotFoundPage = () => {
   return (
@@ -15,9 +16,13 @@ const NotFoundPage = () => {
             Lo sentimos, pero esta página actualmente no se pudo encontrar o no
             está disponible todavía.
           </p>
-          <button className="bg-[#8DD3BB] font-medium py-2 px-20 rounded-md mt-6"><Link to="/">Volver al inicio</Link></button>
+          <button className="bg-[#8DD3BB] font-medium py-2 px-20 rounded-md mt-6">
+            <Link to="/">Volver al inicio</Link>
+          </button>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

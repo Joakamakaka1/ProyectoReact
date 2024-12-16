@@ -43,7 +43,6 @@ const ProductDetailPage = () => {
           </p>
         </div>
 
-        {/* Aquí se muestran los 5 productos */}
         <ProductList />
         <ProductList />
         <ProductList />

@@ -12,7 +12,6 @@ const ApiDocumentation = () => {
       </h1>
 
       <div className="mx-4 md:mx-20 lg:mx-32 mb-8">
-        {/* Usamos grid para organizar los elementos en columnas */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Endpoint 1: Obtener todos los países */}
           <div className="rounded-lg p-6 bg-white shadow-md">
