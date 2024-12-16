@@ -1,40 +1,28 @@
 import React from "react";
 import Header from "../components/NavBar";
 import ProductCard from "../components/ProductCard";
-import ParisImage from "../assets/img/paris.jpeg";
-import BangkokImage from "../assets/img/bangkok.jpeg";
-import NewYorkImage from "../assets/img/newYork.jpeg";
-import CadizImage from "../assets/img/cadiz.jpeg";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { fetchAirlines } from "../services/apiServices";
 
 const Home = () => {
-  const cardsData = [
-    {
-      title: "París",
-      price: "$700",
-      subTitle: "Una aventura en París",
-      image: ParisImage,
-    },
-    {
-      title: "Bangkok",
-      price: "$600",
-      subTitle: "Una aventura en París",
-      image: BangkokImage,
-    },
-    {
-      title: "Nueva York",
-      price: "$800",
-      subTitle: "Una aventura en París",
-      image: NewYorkImage,
-    },
-    {
-      title: "Cádiz",
-      price: "$500",
-      subTitle: "Una aventura en París",
-      image: CadizImage,
-    },
-  ];
+  const [cardsData, setCardsData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const countries = await fetchAirlines();
+      const updatedCards = countries.map((country) => ({
+        title: country.name.common,
+        price: "$700",
+        subTitle: "Una aventura en Europa",
+        image: country.flags?.svg || "https://via.placeholder.com/300",
+      }));
+      setCardsData(updatedCards);
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -42,7 +30,11 @@ const Home = () => {
 
       <section className="relative">
         <div>
-          <img src="public/avion.jpg" alt="" className="w-full h-[550px] object-cover"/>
+          <img
+            src="/avion.jpg"
+            alt="Portada"
+            className="w-full h-[550px] object-cover"
+          />
         </div>
       </section>
 
@@ -85,9 +77,9 @@ const Home = () => {
             Sumérgete en los viajes
           </h2>
           <p className="text-gray-600 w-2/4">
-            ¿Vas a algún lugar para celebrar esta temporada? . Ya sea que
-            regrese a casa o a algún lugar para recorrer, tenemos las
-            herramientas de viaje para llevarlo a su destino.
+            ¿Vas a algún lugar para celebrar esta temporada? Ya sea que regrese
+            a casa o a algún lugar para recorrer, tenemos las herramientas de
+            viaje para llevarlo a su destino.
           </p>
         </div>
 
@@ -143,28 +135,29 @@ const Home = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="public/tropical1.jpeg"
+              src="public/tropical1.jpg"
               alt="Maldivas 1"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="public/tropical2.jpeg"
+              src="public/tropical2.jpg"
               alt="Maldivas 2"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="public/tropical3.jpeg"
+              src="public/tropical3.jpg"
               alt="Maldivas 3"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="public/tropical4.jpeg"
+              src="public/tropical4.jpg"
               alt="Maldivas 4"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
           </div>
         </div>
       </section>
+
       <Footer />
     </div>
   );
