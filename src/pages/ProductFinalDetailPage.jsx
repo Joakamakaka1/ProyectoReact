@@ -5,8 +5,9 @@ import Footer from "../components/Footer";
 const ProductFinalDetailPage = () => {
   return (
     <div className="bg-gray-100 min-h-screen font-sans">
+      {/* Header */}
       <Header />
-
+      {/* Datos vuelo */}
       <div className="pt-7 flex justify-between items-center mx-20 mb-10">
         <div>
           <h1 className="text-2xl text-[#112211] font-semibold">
@@ -28,7 +29,7 @@ const ProductFinalDetailPage = () => {
           </button>
         </div>
       </div>
-
+      {/* Imagen del vuelo */}
       <div className="mx-20">
         <div className="w-full h-96 overflow-hidden rounded-lg mt-4">
           <img
@@ -38,7 +39,7 @@ const ProductFinalDetailPage = () => {
           />
         </div>
       </div>
-
+      {/* Policies */}
       <div className="bg-[#8DD3BB] p-6 rounded-lg mx-20 my-10">
         <h2 className="font-bold text-2xl text-[#112211] mb-6">
           Ryanair Airlines Policies
@@ -55,9 +56,9 @@ const ProductFinalDetailPage = () => {
         </ul>
       </div>
 
-      {/* Flights Details */}
+      {/* Detalles */}
       <div className="mx-20 pb-10">
-        {/* Flight 1 */}
+        {/* Vuelo 1 */}
         <div className="bg-white p-6 py-4 rounded-lg shadow-md mb-4 h-56">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-semibold text-[#112211] text-2xl">
@@ -69,7 +70,7 @@ const ProductFinalDetailPage = () => {
           <div className="flex items-center mb-4">
             <div className="border border-green-200 rounded-md py-3 px-3 flex">
               <img
-                src="public/ryanair.jpg"
+                src="/ryanair.jpg"
                 alt="Ryanair Logo"
                 className="w-12 h-12 mr-4 "
               />
@@ -93,7 +94,7 @@ const ProductFinalDetailPage = () => {
           </div>
         </div>
 
-        {/* Flight 2 */}
+        {/* Vuelo 2 */}
         <div className="bg-white p-6 py-4 rounded-lg shadow-md h-56">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-semibold text-[#112211] text-2xl">
@@ -105,7 +106,7 @@ const ProductFinalDetailPage = () => {
           <div className="flex items-center mb-4">
             <div className="border border-green-200 rounded-md py-3 px-3 flex">
               <img
-                src="public/ryanair.jpg"
+                src="/ryanair.jpg"
                 alt="Ryanair Logo"
                 className="w-12 h-12 mr-4"
               />

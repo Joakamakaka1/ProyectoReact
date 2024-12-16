@@ -3,7 +3,9 @@ import React from "react";
 const ProductCard = ({ title, price, subTitle, image }) => {
   return (
     <div className="bg-white shadow-md rounded-md overflow-hidden">
+      {/* Imagen del vuelo */}
       <img src={image} alt={title} className="h-64 w-full object-cover" />
+      {/* Datos del vuelo */}
       <div className="p-4">
         <h3 className="font-bold text-xl">{title}</h3>
         <div className="flex justify-between items-center">

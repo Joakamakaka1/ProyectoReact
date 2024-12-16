@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const ContactPage = () => {
   return (
     <div className="min-h-screen min-w-full bg-gray-100 flex items-center justify-center">
+      {/* Sección de imagen */}
       <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-3/4 overflow-hidden">
         <div className="flex flex-col justify-center p-6 md:p-10">
           <Link to="/">
@@ -61,6 +62,7 @@ const ContactPage = () => {
           </form>
         </div>
 
+        {/* Sección de imagen */}
         <div className="hidden md:flex items-center justify-center bg-gray-100 py-5">
           <img
             src="/palmeras.jpeg"

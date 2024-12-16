@@ -6,8 +6,9 @@ import Header from "../components/NavBar";
 const ProductDetailPage = () => {
   return (
     <div className="max-w mx-auto bg-gray-100">
+      {/* Header */}
       <Header />
-
+      {/* Buscador */}
       <section className="bg-white shadow-lg p-6 rounded-md mb-8 mt-8 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
           <input
@@ -35,6 +36,7 @@ const ProductDetailPage = () => {
         </div>
       </section>
 
+      {/* Productos */}
       <div className="p-6 max-w-6xl mx-auto border-l border-r">
         <div className="flex justify-between items-start mb-4 text-[#112211]">
           <p className="font-semibold">Mostrando 6 de 123 lugares</p>

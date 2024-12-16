@@ -7,8 +7,9 @@ import { useState, useEffect } from "react";
 import { fetchAirlines } from "../services/apiServices";
 
 const Home = () => {
-  const [cardsData, setCardsData] = useState([]);
+  const [cardsData, setCardsData] = useState([]); // Array para almacenar los datos de las tarjetas
 
+  // Función para obtener los paquetes
   useEffect(() => {
     const fetchData = async () => {
       const countries = await fetchAirlines();
@@ -26,8 +27,10 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
+      {/* Header */}
       <Header />
 
+      {/* Portada */}
       <section className="relative">
         <div>
           <img
@@ -38,6 +41,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Buscador */}
       <section className="bg-white shadow-lg p-6 rounded-md w-11/12 max-w-5xl mx-auto -mt-20 relative z-20">
         <h1 className="text-2xl font-bold mb-4 text-center md:text-left">
           ¿A dónde vuelas?
@@ -60,7 +64,6 @@ const Home = () => {
             className="border p-3 rounded-md"
           />
         </div>
-
         <div className="mt-4">
           <Link
             className="bg-[#8DD3BB] font-medium py-3 rounded-md text-center block w-full"
@@ -71,6 +74,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Paquetes de vuelos 1 */}
       <section className="py-12 bg-gray-100">
         <div className="mb-8 px-40">
           <h2 className="text-3xl font-bold text-[#112211] pb-4">
@@ -96,6 +100,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Paquetes de vuelos 2 */}
       <section className="py-12 bg-gray-100">
         <div className="mb-8 px-40">
           <h2 className="text-3xl font-bold text-[#112211] pb-4">
@@ -158,6 +163,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Footer */}
       <Footer />
     </div>
   );

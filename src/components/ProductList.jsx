@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 const ProductList = () => {
   return (
     <div className="bg-white shadow-md rounded-md overflow-hidden p-4 mb-6 flex items-center">
+      {/* Imagen del vuelo */}
       <img
         src="/ryanair.jpg"
         alt="Product"
         className="h-32 w-32 object-cover mr-4"
       />
+      {/* Datos del vuelo */}
       <div className="flex-1">
         <div className="flex justify-between items-start">
           <div className="flex items-center mb-5">

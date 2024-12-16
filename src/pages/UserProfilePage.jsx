@@ -5,8 +5,10 @@ import Footer from "../components/Footer";
 const UserProfilePage = () => {
   return (
     <div className="min-h-screen bg-gray-100">
+      {/* Header */}
       <Header />
 
+      {/* Perfil */}
       <div className="bg-[#5C5C5C] text-white p-16 text-center relative mx-20 mt-10 rounded-t-lg">
         <div className="w-36 h-36 mx-auto rounded-full bg-gray-300 border-4 border-white overflow-hidden relative">
           <img
@@ -30,7 +32,7 @@ const UserProfilePage = () => {
           </li>
         </ul>
       </div>
-
+      {/* Cuenta */}
       <div className="mx-20 mb-10 bg-white mt-6 shadow-lg rounded-md p-6">
         <h3 className="text-xl font-semibold mb-4">Cuenta</h3>
         <div className="space-y-6">

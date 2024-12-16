@@ -1,3 +1,4 @@
+// Función para obtener los primeros 4 paquetes
 export const fetchAirlines = async () => {
   try {
     const response = await fetch(
