@@ -75,11 +75,11 @@ const LoginPage = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex items-center justify-center bg-gray-100 py-5">
+        <div className="hidden md:flex items-center justify-center bg-gray-100 py-5 ">
           <img
-            src="https://via.placeholder.com/400x700"
-            alt="Login Illustration"
-            className="w-auto h-auto max-w-sm"
+            src="public/palmeras.jpeg"
+            alt="Login"
+            className="w-auto h-[600px] max-w-sm rounded-lg"
           />
         </div>
       </div>

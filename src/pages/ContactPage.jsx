@@ -63,9 +63,9 @@ const ContactPage = () => {
 
         <div className="hidden md:flex items-center justify-center bg-gray-100 py-5">
           <img
-            src="https://via.placeholder.com/400x700"
+            src="public/palmeras.jpeg"
             alt="Contact Illustration"
-            className="w-auto h-auto max-w-sm"
+            className="w-auto h-[600px] max-w-sm rounded-lg"
           />
         </div>
       </div>

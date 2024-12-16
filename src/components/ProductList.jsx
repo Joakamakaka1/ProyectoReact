@@ -5,7 +5,7 @@ const ProductList = () => {
   return (
     <div className="bg-white shadow-md rounded-md overflow-hidden p-4 mb-6 flex items-center">
       <img
-        src="https://via.placeholder.com/150"
+        src="public/ryanair.jpg"
         alt="Product"
         className="h-32 w-32 object-cover mr-4"
       />

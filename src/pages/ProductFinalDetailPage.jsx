@@ -30,7 +30,7 @@ const ProductFinalDetailPage = () => {
       <div className="mx-20">
         <div className="w-full h-96 overflow-hidden rounded-lg mt-4">
           <img
-            src="https://via.placeholder.com/1920x600"
+            src="public/avion.jpg"
             alt="airplane"
             className="w-full h-full object-cover"
           />
@@ -65,7 +65,7 @@ const ProductFinalDetailPage = () => {
           <div className="flex items-center mb-4">
             <div className="border border-green-200 rounded-md py-3 px-3 flex">
               <img
-                src="https://via.placeholder.com/40"
+                src="public/ryanair.jpg"
                 alt="Ryanair Logo"
                 className="w-12 h-12 mr-4 "
               />
@@ -97,7 +97,7 @@ const ProductFinalDetailPage = () => {
           <div className="flex items-center mb-4">
             <div className="border border-green-200 rounded-md py-3 px-3 flex">
               <img
-                src="https://via.placeholder.com/40"
+                src="public/ryanair.jpg"
                 alt="Ryanair Logo"
                 className="w-12 h-12 mr-4"
               />

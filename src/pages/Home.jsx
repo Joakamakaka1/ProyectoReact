@@ -38,12 +38,11 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-
       <Header />
 
       <section className="relative">
         <div>
-          <img src="https://via.placeholder.com/1920x600" alt="" />
+          <img src="public/avion.jpg" alt="" className="w-full h-[550px] object-cover"/>
         </div>
       </section>
 
@@ -144,22 +143,22 @@ const Home = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://via.placeholder.com/300"
+              src="public/tropical1.jpeg"
               alt="Maldivas 1"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="https://via.placeholder.com/300"
+              src="public/tropical2.jpeg"
               alt="Maldivas 2"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="https://via.placeholder.com/300"
+              src="public/tropical3.jpeg"
               alt="Maldivas 3"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />
             <img
-              src="https://via.placeholder.com/300"
+              src="public/tropical4.jpeg"
               alt="Maldivas 4"
               className="w-full h-56 object-cover rounded-md border border-green-200"
             />

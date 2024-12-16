@@ -8,12 +8,15 @@ const UserProfilePage = () => {
       <Header />
 
       <div className="bg-[#5C5C5C] text-white p-16 text-center relative mx-20 mt-10 rounded-t-lg">
-        <div className="w-36 h-36 mx-auto rounded-full bg-gray-300 border-4 border-white">
+        <div className="w-36 h-36 mx-auto rounded-full bg-gray-300 border-4 border-white overflow-hidden relative">
           <img
-            src="https://via.placeholder.com/140x140"
+            src="public/fotoPersona.png"
             alt="Avatar"
-            className="rounded-full"
+            className="rounded-full transform scale-125"
           />
+          <div className="absolute top-16 right-1 p-2 rounded-full shadow-md cursor-pointer bg-red-300">
+            ✏️
+          </div>
         </div>
         <h2 className="text-2xl font-bold mt-2">Joaquin</h2>
         <p className="text-gray-300">joaquin@gmail.com</p>

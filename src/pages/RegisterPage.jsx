@@ -7,9 +7,9 @@ const RegisterPage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-3/4 overflow-hidden">
         <div className="hidden md:flex items-center justify-center bg-gray-100 py-5">
           <img
-            src="https://via.placeholder.com/400x700"
-            alt="Register Illustration"
-            className="w-auto h-auto max-w-sm"
+            src="public/palmeras.jpeg"
+            alt="Register"
+            className="w-auto h-[600px] max-w-sm rounded-lg"
           />
         </div>
 
@@ -108,7 +108,7 @@ const RegisterPage = () => {
               </div>
             </div>
 
-            <Link to="/profile">
+            <Link to="/login">
               <button
                 type="submit"
                 className="w-full bg-[#8DD3BB] font-medium py-2 px-4 shadow-md rounded-lg mt-3"
